@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-1",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashnaali3255/Portfolio-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashnaali3255/Portfolio-1/issues"
+  },
+  "homepage": "https://github.com/Ashnaali3255/Portfolio-1#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
+}
