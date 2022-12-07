@@ -32,7 +32,7 @@ HTML,CSS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://ashnaali3255.github.io/Portfolio/)
+- [Live Demo Link](https://ashnaali3255.github.io/Portfolio-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
