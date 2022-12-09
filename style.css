@@ -24,9 +24,15 @@
   }
 
   .about h2 {
-    font-size: 40px;
-  }
-
+font-size: 40px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #172B4D;
+  
   nav img {
     font-size: 15px;
     width: 24px;
@@ -108,59 +114,7 @@
     margin: 114px 24px;
   }
 }
-
 <!--My Project-->
-/* * {
-  font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-body{
-  margin: auto;
-  width: 200px;
-  background-color: #fff;
-  color: #000;
-  font-family: "Poppins", sans-serif;
-}
-.projects{
-  margin: 30px 10px;
-  background-color: #e5e5e5;
-  padding: 20px 0;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-}
-.content h5{
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  padding-top: 10px;
-  color: #7f8cff;
-}
-.project {
-  margin: 30px 20px;
-  background-color: #fff;
-  padding: 20px 15px;
-  border-radius: 10px;
-  display: grid;
-  grid-template-columns: 80%;
-  grid-template-rows: 1fr;
-}
-.project h2{
-  padding: 20px 0;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d;
-}
-
-.project .toni {
-  justify-content: flex-start;
-} */
-
 .h1{
 font-family: 'Poppins';
 font-style: normal;
@@ -170,6 +124,16 @@ line-height: 44px;
 color:#172B4D;
 align-items: center;
 }
+/* .h2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #172B4D; */
+
 .projects{
   margin: 0 24px;
   padding: 20px 0;
@@ -246,6 +210,7 @@ gap: 12px;
 }
 .about{
   margin: 0 24px;
+  color: #172B4D;
 }
 .icon{
   font-family: 'Poppins';
@@ -270,6 +235,7 @@ font-size: 15px;
 line-height: 24px;
 align-items: center;
 color: #253858;
+gap: 10px;
 }
 .arrow{
   font-family: 'Poppins';
@@ -285,34 +251,6 @@ color: #253858;
 #lang{
   margin-top: 100px;
 }
-.contact-me{  
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-}
-p{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-}
-.Contact{
-  margin: 0 24px;
-}
-form{
-    background: #FFFFFF;
-border: 1px solid #CFD8DC;
-border-radius: 8px;
-}
-
 @media only screen and (min-width: 768px) {
   nav img {
     font-size: 15px;
