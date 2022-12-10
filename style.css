@@ -97,13 +97,15 @@ nav a {
 
 section.main-section {
   margin: 10px 24px;
-  background-image: url("./BG.jpg");
+}
+
+main {
+  background-image: url(./BG.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  position: relative;
-  bottom: 10px;
+  position: absolute;
+  top: 6%;
+  left: 0;
+  right: 0;
 }
 
 h2 {
@@ -133,8 +135,6 @@ h2 {
   border-radius: 16px;
   margin-top: 114px;
   margin-bottom: 88px;
-  margin-left: 16px;
-  margin-right: 16px;
 }
 
 .link {
