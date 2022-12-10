@@ -20,7 +20,7 @@ header a {
 nav img {
   font-size: 15px;
   width: 24px;
-  height: 24px;
+  height: 20px;
   margin: 10px 24px;
 }
 
@@ -34,7 +34,8 @@ h1.name {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #6070ff;
+  color: #172b4d;
+  margin-top: 114px;
 }
 
 p.description {
@@ -47,7 +48,8 @@ p.description {
   width: 300px;
 }
 
-h3 {
+h3,
+.connect {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -58,6 +60,10 @@ h3 {
   align-items: center;
   text-align: center;
   margin: 12px;
+}
+
+.connect {
+  margin: 0;
 }
 
 ul.links {
@@ -192,8 +198,8 @@ button {
   line-height: 24px;
   width: 150px;
   background: #fff;
-  border: 1px solid #396df2;
-  border-radius: 16px;
+  border: 2px solid #396df2;
+  border-radius: 10px;
   font-size: 17px;
   color: #396df2;
   margin: 40px 16px;
