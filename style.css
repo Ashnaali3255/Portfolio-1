@@ -3,6 +3,7 @@
 
 * {
   font-family: 'Poppins', sans-serif;
+
   /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
@@ -314,7 +315,7 @@ hr {
 .text {
   width: 327px;
   height: 48px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-left: 24px;
 }
@@ -331,7 +332,7 @@ hr {
 .message {
   width: 327px;
   height: 170px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-left: 24px;
 }
@@ -347,7 +348,7 @@ hr {
   align-items: center;
   padding: 12px 16px;
   height: 48px;
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 8px;
   margin-left: 24px;
   margin-top: 0;
@@ -359,11 +360,10 @@ hr {
   justify-content: center;
   align-items: center;
   border-top-left-radius: 50px;
-  background: #6070FF;
+  background: #6070ff;
   background-image: url("./contactbg.png");
   background-repeat: no-repeat;
   background-position: right;
-  background-repeat: no-repeat;
   position: absolute;
   left: 0;
   right: 0;
@@ -380,12 +380,12 @@ hr {
 }
 
 .heading {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #FFFFFF;
+  color: #fff;
   margin-top: 103px;
   margin-bottom: 10px;
   height: 56px;
@@ -393,13 +393,13 @@ hr {
 
 .graph {
   width: 327px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   margin-left: 24px;
   margin-right: 24px;
 }
