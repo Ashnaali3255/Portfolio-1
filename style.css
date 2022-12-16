@@ -60,7 +60,6 @@ p.description {
   width: 300px;
 }
 
-h3,
 .connect {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -138,6 +137,10 @@ h2 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
+}
+
+.desktop-projects {
+  display: none;
 }
 
 .project {
@@ -417,6 +420,7 @@ hr {
   body {
     background-color: #e5e5e5;
   }
+
   /* Desktop Nav Bar */
   .menu-icon {
     display: none;
@@ -463,7 +467,7 @@ hr {
     padding-top: 30px;
     padding-bottom: 255.04px;
     margin: 10px 24px;
-    width:100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -502,7 +506,6 @@ hr {
     margin-top: 12px;
   }
 
-  h3,
   .connect {
     width: 117px;
     height: 24px;
@@ -580,14 +583,14 @@ hr {
   }
 
   .desktop-projects .desktop-project .proj-image {
-   padding: 24px 0 24px 24px;
+    padding: 24px 0 24px 24px;
   }
 
   .desktop-project-right .desktop-project .proj-image {
     padding: 24px 22px 24px 0;
   }
 
-  .desktop-projects .desktop-project .proj-desc  {
+  .desktop-projects .desktop-project .proj-desc {
     padding: 48px 46px 0 46px;
   }
 
@@ -595,7 +598,7 @@ hr {
     padding: 48px 0 0 48px;
   }
 
-  .desktop-projects .desktop-project .proj-desc .para  {
+  .desktop-projects .desktop-project .proj-desc .para {
     width: 496px !important;
     height: 50px !important;
     font-weight: 400;
@@ -607,4 +610,55 @@ hr {
     width: 496px;
     height: 70px;
   }
+
+  .about {
+    display: none;
+  }
+
+  .about-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .content-desktop {
+    width: 447px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+  }
+
+  .desktop-social {
+    margin-left: 49px;
+    width: 447px;
+    height: 114px;
+  }
+
+  .connect-desktop {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+    margin-left: 16px;
+  }
+   .link2-desktop { 
+    margin-left: 16px;
+    display: flex;
+    flex-direction: row;
+  }
+  .link2-desktop li{
+    padding: 4px;
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+  } 
 }
