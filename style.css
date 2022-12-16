@@ -323,6 +323,9 @@ hr {
 }
 
 /* Contact me */
+.contact-desktop {
+  display: none;
+}
 
 .text {
   width: 327px;
@@ -620,7 +623,7 @@ hr {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 200px;
   }
 
   .content-desktop {
@@ -659,6 +662,58 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  
-  } 
+  }
+
+  .desktop-languages {
+    display: flex !important;
+    flex-direction: row;
+
+  }
+
+  .desktop-languages .item {
+    width: 122px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .desktop-frameworks {
+    margin-top: 36px;
+  }
+
+  .desktop-frameworks .seperator {
+    margin-bottom: 24px;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .contact-desktop {
+    background: #6070ff url('./images/desktop/contact.svg');
+    background-repeat: no-repeat;
+    background-position: 100% 3%;
+    width: 100%;
+    margin-top: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 150px;
+  }
+
+  .contact1-desktop {
+    width: 569px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact1-desktop  .graph {
+    width: 569px !important;
+    height: 102px !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
 }
