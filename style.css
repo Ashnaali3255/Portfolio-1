@@ -14,7 +14,12 @@ header nav {
   align-items: center;
   justify-content: space-between;
 }
-
+.menu-icon{
+  display:flex;
+}
+.desktop-link{
+  display: none;
+}
 header a {
   margin: 0 12px;
   font-size: 18px;
@@ -402,4 +407,108 @@ hr {
   color: #ebebff;
   margin-left: 24px;
   margin-right: 24px;
+}
+@media screen and (min-width:768px){
+.menu-icon{
+display: none;
+}
+.desktop-link{
+  width: 63px;
+height: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #344563;
+}
+main {
+  background-image: url(./BG1.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 6%;
+  left: 0;
+  right: 0;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+section.main-section {
+  margin: 10px 24px;
+  width:920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1.name{
+  
+width: 920px;
+height: 122px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+display: flex;
+align-items: center;
+letter-spacing: 0.37px;
+color: #091E42;
+}
+p.description{
+  width: 920px;
+height: 98px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #344563;
+}
+h3, .connect{
+width: 117px;
+height: 24px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+margin-left: 260px;
+margin-right: 1063px;
+}
+ul.links {
+  padding: 0;
+  gap: 16px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 117px;
+  height: 24px;
+  margin-right: 1060px;
+  margin-left: 260px;
+}
+nav a {
+  font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+    width: 250px;
+    height: 20px;
+    color: #6070ff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 155px;
+    margin-top: 25px;
+}
 }
