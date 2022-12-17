@@ -4,15 +4,19 @@
 * {
   font-family: 'Poppins', sans-serif;
 
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+header{
+  width: 75%;
 }
 
 header nav {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .menu-icon {
@@ -112,6 +116,7 @@ main {
   top: 6%;
   left: 0;
   right: 0;
+
 }
 
 h2 {
@@ -144,7 +149,7 @@ h2 {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 114px;
-  margin-bottom: 88px;
+  /* margin-bottom: 88px; */
 }
 
 .link {
@@ -416,7 +421,7 @@ hr {
 
 @media screen and (min-width: 768px) {
   body {
-    background-color: #e5e5e5;
+    background: #E5E5E5;
   }
 
   /* Desktop Nav Bar */
@@ -433,6 +438,7 @@ hr {
     display: flex;
     flex-direction: row;
     margin-right: 154px;
+    gap: 10%;
   }
 
   .desktop-ul .desktop-link {
@@ -455,10 +461,12 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
+    background-image: none;
+    margin-top: -4%;
   }
 
   section.main-section {
-    padding-top: 30px;
     padding-bottom: 255.04px;
     margin: 10px 24px;
     width: 100%;
@@ -467,7 +475,7 @@ hr {
     align-items: center;
     justify-content: center;
     border-bottom-left-radius: 100px;
-    background: #fff url("./headerbg.svg");
+    background: url("./headerbg.svg");
     background-repeat: no-repeat;
     background-position: 60% 20%;
   }
@@ -539,8 +547,8 @@ hr {
     color: #6070ff;
     display: flex;
     align-items: center;
-    text-align: center;
-    margin-left: 155px;
+    padding-left: 6%;
+
   }
 
   /* Desktop Projects Area */
@@ -554,6 +562,7 @@ hr {
     justify-content: center;
     align-items: center;
     margin-top: 142px;
+    margin-left: 149px;
   }
 
   .desktop-projects .desktop-project {
@@ -563,6 +572,7 @@ hr {
     border: 1px solid #dfe1e6;
     border-radius: 24px;
     margin-bottom: 142px;
+    width: 100%;
   }
 
   .desktop-project-right {
@@ -572,6 +582,7 @@ hr {
     border: 1px solid #dfe1e6;
     border-radius: 24px;
     margin-bottom: 142px;
+    width: 100%;
   }
 
   .desktop-projects .desktop-project .proj-image {
@@ -612,7 +623,9 @@ hr {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
+    height: 800px;
+    background: #FFFFFF;
+    border-top-right-radius: 150px;
   }
 
   .content-desktop {
@@ -735,5 +748,8 @@ hr {
     border: 1px solid #cfd8dc;
     border-radius: 2px;
     margin-left: 24px;
+  }
+  .footer-underline{
+    display: none;
   }
 }
