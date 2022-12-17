@@ -9,11 +9,10 @@
   padding: 0;
 }
 
-
 header nav {
   display: flex;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 
 .menu-icon {
@@ -71,10 +70,6 @@ p.description {
   align-items: center;
   text-align: center;
   margin: 12px;
-}
-
-.connect {
-  margin: 0;
 }
 
 ul.links {
@@ -419,7 +414,7 @@ hr {
   margin-right: 24px;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   body {
     background-color: #e5e5e5;
   }
@@ -444,7 +439,7 @@ hr {
     width: 63px;
     padding: 32px;
     height: 20px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -478,7 +473,6 @@ hr {
   }
 
   h1.name {
-
     width: 920px;
     height: 122px;
     font-family: 'Poppins', sans-serif;
@@ -489,7 +483,7 @@ hr {
     display: flex;
     align-items: center;
     letter-spacing: 0.37px;
-    color: #091E42;
+    color: #091e42;
     margin-top: 359px;
   }
 
@@ -513,7 +507,7 @@ hr {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8cff;
     margin-left: 260px;
     margin-right: 1063px;
     margin-top: 12px;
@@ -547,7 +541,6 @@ hr {
     align-items: center;
     text-align: center;
     margin-left: 155px;
-
   }
 
   /* Desktop Projects Area */
@@ -567,7 +560,7 @@ hr {
     display: flex;
     flex-direction: row;
     background-color: #fff;
-    border: 1px solid #DFE1E6;
+    border: 1px solid #dfe1e6;
     border-radius: 24px;
     margin-bottom: 142px;
   }
@@ -576,7 +569,7 @@ hr {
     display: flex;
     flex-direction: row-reverse;
     background-color: #fff;
-    border: 1px solid #DFE1E6;
+    border: 1px solid #dfe1e6;
     border-radius: 24px;
     margin-bottom: 142px;
   }
@@ -589,12 +582,17 @@ hr {
     padding: 24px 22px 24px 0;
   }
 
+  .desktop-project-right .proj-desc {
+    padding: 48px 0 0 48px;
+  }
+
   .desktop-projects .desktop-project .proj-desc {
     padding: 48px 46px 0 46px;
   }
 
-  .desktop-project-right .proj-desc {
-    padding: 48px 0 0 48px;
+  .desktop-project-right .proj-desc .para {
+    width: 496px;
+    height: 70px;
   }
 
   .desktop-projects .desktop-project .proj-desc .para {
@@ -603,11 +601,6 @@ hr {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-  }
-
-  .desktop-project-right .proj-desc .para {
-    width: 496px;
-    height: 70px;
   }
 
   .about {
@@ -628,7 +621,6 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
   }
 
   .desktop-social {
@@ -638,12 +630,12 @@ hr {
   }
 
   .connect-desktop {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8cff;
     margin-left: 16px;
   }
 
@@ -666,7 +658,6 @@ hr {
   .desktop-languages {
     display: flex !important;
     flex-direction: row;
-
   }
 
   .desktop-languages .item {
@@ -719,7 +710,7 @@ hr {
 
   .touch-desktop {
     align-self: center;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .contact-desktop .form {
@@ -730,8 +721,8 @@ hr {
   }
 
   .contact-desktop .text-desktop {
-    background: #FFF;
-    border: 1px solid #CFD8DC;
+    background: #fff;
+    border: 1px solid #cfd8dc;
     border-radius: 2px;
     width: 327px;
     margin-left: 24px;
@@ -740,8 +731,8 @@ hr {
   .contact-desktop .message-desktop {
     width: 327px;
     height: 170px;
-    background: #FFF;
-    border: 1px solid #CFD8DC;
+    background: #fff;
+    border: 1px solid #cfd8dc;
     border-radius: 2px;
     margin-left: 24px;
   }
