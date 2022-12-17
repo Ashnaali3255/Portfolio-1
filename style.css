@@ -425,6 +425,7 @@ hr {
   }
 
   /* Desktop Nav Bar */
+
   .menu-icon {
     display: none;
   }
@@ -459,11 +460,6 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding-left: 60px;
-    padding-right: 60px; */
-    /* background-image: url("./headerbg.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 60% 3%; */
   }
 
   section.main-section {
@@ -650,15 +646,18 @@ hr {
     color: #7F8CFF;
     margin-left: 16px;
   }
-   .link2-desktop { 
+
+  .link2-desktop {
     margin-left: 16px;
     display: flex;
     flex-direction: row;
   }
-  .link2-desktop li{
+
+  .link2-desktop li {
     padding: 4px;
   }
-  .social{
+
+  .social {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -709,11 +708,41 @@ hr {
     justify-content: center;
     align-items: center;
   }
-  .contact1-desktop  .graph {
+
+  .contact1-desktop .graph {
     width: 569px !important;
     height: 102px !important;
     font-weight: 400 !important;
     font-size: 20px !important;
     line-height: 28px !important;
+  }
+
+  .touch-desktop {
+    align-self: center;
+    margin-top: 0px;
+  }
+
+  .contact-desktop .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-desktop .text-desktop {
+    background: #FFF;
+    border: 1px solid #CFD8DC;
+    border-radius: 2px;
+    width: 327px;
+    margin-left: 24px;
+  }
+
+  .contact-desktop .message-desktop {
+    width: 327px;
+    height: 170px;
+    background: #FFF;
+    border: 1px solid #CFD8DC;
+    border-radius: 2px;
+    margin-left: 24px;
   }
 }
