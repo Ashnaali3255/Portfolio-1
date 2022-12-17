@@ -3,12 +3,12 @@
 
 * {
   font-family: 'Poppins', sans-serif;
-
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-header{
+
+header {
   width: 75%;
 }
 
@@ -116,7 +116,6 @@ main {
   top: 6%;
   left: 0;
   right: 0;
-
 }
 
 h2 {
@@ -149,6 +148,7 @@ h2 {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 114px;
+
   /* margin-bottom: 88px; */
 }
 
@@ -421,7 +421,7 @@ hr {
 
 @media screen and (min-width: 768px) {
   body {
-    background: #E5E5E5;
+    background: #e5e5e5;
   }
 
   /* Desktop Nav Bar */
@@ -548,7 +548,6 @@ hr {
     display: flex;
     align-items: center;
     padding-left: 6%;
-
   }
 
   /* Desktop Projects Area */
@@ -624,7 +623,7 @@ hr {
     justify-content: center;
     align-items: center;
     height: 800px;
-    background: #FFFFFF;
+    background: #fff;
     border-top-right-radius: 150px;
   }
 
@@ -749,7 +748,8 @@ hr {
     border-radius: 2px;
     margin-left: 24px;
   }
-  .footer-underline{
+
+  .footer-underline {
     display: none;
   }
 }
