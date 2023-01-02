@@ -14,6 +14,16 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
+# 📘 Learning Objectives
+
+1. Use basic JavaScript syntax.
+2. Use JavaScript to manipulate DOM elements.
+3. Use JavaScript events.
+4. Understand how to parse a Figma design to create a UI.
+5. Use objects to store and access data.
+
+computer Getting Started Describe how a new developer could make use of your project.
+
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [My Portfolio] <a name="about-project"></a>
@@ -24,7 +34,7 @@ A responsive portfolio , which can help to easy explorate profiles from differen
 
 ### Tech Stack <a name="tech-stack"></a>
 
-HTML,CSS
+HTML,CSS,JS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
