@@ -52,9 +52,6 @@ header nav {
   font-weight: lighter;
   font-size: 22px;
 }
-
-
-
 .desktop-link {
   display: none;
 }
@@ -63,14 +60,6 @@ header a {
   margin: 0 12px;
   font-size: 18px;
 }
-
-/* nav img {
-  font-size: 15px;
-  width: 24px;
-  height: 20px;
-  margin: 10px 24px;
-} */
-
 h1.name {
   width: 327px;
   height: 150px;
@@ -124,10 +113,6 @@ ul.links {
 .link2 {
   margin-top: 50px;
 }
-
-/* nav a {
-  display: none;
-} */
 
 #logo {
   font-family: 'Poppins', sans-serif;
