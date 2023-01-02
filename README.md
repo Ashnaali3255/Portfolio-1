@@ -24,7 +24,7 @@ A responsive portfolio , which can help to easy explorate profiles from differen
 
 ### Tech Stack <a name="tech-stack"></a>
 
-HTML,CSS
+HTML,CSS,js
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
