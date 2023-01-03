@@ -40,7 +40,7 @@ HTML,CSS,JS
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
+<a href="https://ashnaali3255.github.io/Portfolio-1/">Live Demo</a>
 
 ## 💻 Getting Started
  
