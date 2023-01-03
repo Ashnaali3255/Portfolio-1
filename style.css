@@ -17,14 +17,37 @@ header nav {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  gap: 83px;
 }
 
+/* Menu changes */
 .menu-icon {
-  display: flex;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #6070fff0;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(10px);
+  text-align: left;
+  display: none;
 }
 
-.desktop-link {
-  display: none;
+.item-closed {
+  margin-left: 280px;
+}
+
+.menu-icon .close {
+  padding-top: 50px;
+  text-align: right;
+  padding-right: 38px;
+  font-weight: lighter;
+}
+
+.mobile-nav {
+  padding: 15px 28px;
 }
 
 header a {
@@ -32,11 +55,20 @@ header a {
   font-size: 18px;
 }
 
-nav img {
-  font-size: 15px;
-  width: 24px;
-  height: 20px;
-  margin: 10px 24px;
+.menu-icon a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-icon .close a {
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+.desktop-link {
+  display: none;
 }
 
 h1.name {
@@ -91,18 +123,6 @@ ul.links {
 
 .link2 {
   margin-top: 50px;
-}
-
-nav a {
-  /* font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 20px;
-  text-decoration: none;
-  width: 250px;
-  height: 20px;
-  color: #6070ff; */
-  display: none;
 }
 
 #logo {
@@ -463,6 +483,10 @@ textarea {
   /* Desktop Nav Bar */
 
   .menu-icon {
+    display: none;
+  }
+
+  .item-menu {
     display: none;
   }
 

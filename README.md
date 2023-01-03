@@ -26,43 +26,7 @@ computer Getting Started Describe how a new developer could make use of your pro
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My Portfolio for Menu] <a name="about-project"></a>
 
-A responsive portfolio , which can help to easy explorate profiles from different devices and If you click on Menu Bar you can see some new features.
-
-
-- Client
-- Server
-- Database
-- Key Features
- 
-Describe between 1-3 key features of the application.
-
-- [key_feature_1]
-- [key_feature_2]
-- [key_feature_3]
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-## 💻 Getting Started
-
-Describe how a new developer could make use of your project.
-
-- To get a local copy up and running, follow these steps.
-
-- Prerequisites In order to run this project you need:
-
-- Setup Clone this repository to your desired folder:
-
-- Install Install this project with:
-
-- Usage To run the project, execute the following command:
-
-- Run tests To run tests, run the following command:
-
-- Deployment You can deploy this project using:
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,14 +34,37 @@ Describe how a new developer could make use of your project.
 
 HTML,CSS,JS
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]( https://ashnaali3255.github.io/Portfolio-1/)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started
+ 
+Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+1. Prerequisites
+In order to run this project you need:
+
+2. Setup
+Clone this repository to your desired folder:
+
+3. Install
+Install this project with:
+
+4. Usage
+To run the project, execute the following command:
+
+5. Run tests
+To run tests, run the following command:
+
+6. Deployment
+You can deploy this project using:
 
 <!-- AUTHORS -->
 
@@ -90,6 +77,7 @@ HTML,CSS,JS
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>

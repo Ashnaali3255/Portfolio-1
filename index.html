@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ashna Full-Stack Web Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,13 +18,20 @@
     <section class="main-section">
       <header>
         <nav>
-          <a href="./index.html" id="logo">Ashna Ali</a>
-          <ul class="desktop-ul">
-            <li class="desktop-link"><a href="#">Portfolio</a></li>
-            <li class="desktop-link"><a href="#">About</a></li>
-            <li class="desktop-link"><a href="#">Contact</a></li>
-          </ul>
-          <img src="./Bar.jpg" alt="menu" class="menu-icon">
+          <a href="./index.html" id="logo">Ashna</a>
+          <div class="desktop-ul">
+            <div class="desktop-link"><a href="#Portfolio">Portfolio</a></div>
+            <div class="desktop-link"><a href="#About">About</a></div>
+            <div class="desktop-link"><a href="#Contact">Contact</a></div>
+          </div>
+          <div class="menu-icon">
+            <div class="item-closed"><a href="#" class="closing"><i class="fa fa-times" aria-hidden="true"></i></a></div>
+            <div class="mobile-nav"><a href="#Portfolio" class="closing">Portfolio</a></div>
+            <div class="mobile-nav"><a href="#About" class="closing">About</a></div>
+            <div class="mobile-nav"><a href="#Contact" class="closing">Contact</a></div>
+          </div>
+          <!-- <img src="./Bar.jpg" alt="menu" class="menu-icon"> -->
+          <div class="item-menu"><a href="#" class="openMenu"><i class="fa fa-bars"></i></a></div>
         </nav>
       </header>
       <h1 class="name">I'm Ashna Ali <br>
@@ -43,7 +51,7 @@
       </ul>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="Portfolio">
       <div class="project">
         <img class="picture" src="First image.jpg" alt="project1">
         <h2 class="post">Tonic</h2>
@@ -114,7 +122,7 @@
       </div>
     </section>
 
-    <section class="desktop-projects">
+    <section class="desktop-projects" id="Portfolio">
       <div class="desktop-project">
         <div class="proj-image">
           <img class="proj-img" src="./images/desktop/projectone.svg" alt="picture">
@@ -207,7 +215,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="About">
       <div class="content">
         <h2>About<br>Myself</h2>
         <p class="para">Hello I'm a software developer! I can help you build a product , feature or website Look
@@ -241,7 +249,7 @@
       </div>
     </section>
 
-    <section class="about-desktop">
+    <section class="about-desktop" id="About">
       <div class="content-desktop">
         <h2>About<br>Myself</h2>
         <p class="para">Hello I'm a software developer! I can help you build a product , feature or website Look
@@ -281,7 +289,7 @@
     </section>
 
 
-    <section class="contact">
+    <section class="contact" id="Contact">
       <div class="contact1">
         <h2 class="heading">Contact me</h2>
         <p class="graph">If you have an application you are interested in developing, a feature that you need built or
@@ -305,7 +313,7 @@
       </div>
     </section>
 
-    <section class="contact-desktop">
+    <section class="contact-desktop" id="Contact">
       <div class="contact1-desktop">
         <h2 class="heading">Contact me</h2>
         <p class="graph">If you have an application you are interested in developing, a feature that you need built or
@@ -329,6 +337,7 @@
       </div>
     </section>
   </main>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
