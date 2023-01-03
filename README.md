@@ -14,11 +14,19 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
+# 📘 Learning Objectives
+
+1. Use basic JavaScript syntax.
+2. Use JavaScript to manipulate DOM elements.
+3. Use JavaScript events.
+4. Understand how to parse a Figma design to create a UI.
+5. Use objects to store and access data.
+
+computer Getting Started Describe how a new developer could make use of your project.
+
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My Portfolio For Menu] <a name="about-project"></a>
 
-A responsive portfolio , which can help to easy explorate profiles from different devices and If you click on Menu Bar you can see some new features.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -26,18 +34,6 @@ A responsive portfolio , which can help to easy explorate profiles from differen
 
 HTML,CSS,JS
 
-Describe the tech stack and include only the relevant sections that apply to your project.
-
-- Client
-- Server
-- Database
-- Key Features
-
-Describe between 1-3 key features of the application.
-
-- [key_feature_1]
-- [key_feature_2]
-- [key_feature_3]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -45,9 +41,6 @@ Describe between 1-3 key features of the application.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](http://127.0.0.1:5500/#)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started
  
