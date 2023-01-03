@@ -34,9 +34,11 @@ header nav {
   text-align: left;
   display: none;
 }
-.item-closed{
+
+.item-closed {
   margin-left: 280px;
 }
+
 .menu-icon .close {
   padding-top: 50px;
   text-align: right;
