@@ -16,15 +16,27 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My Portfolio] <a name="about-project"></a>
+# 📖 [My Portfolio For Menu] <a name="about-project"></a>
 
-A responsive portfolio , which can help to easy explorate profiles from differents devices.
+A responsive portfolio , which can help to easy explorate profiles from different devices and If you click on Menu Bar you can see some new features.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 HTML,CSS,js
+
+Describe the tech stack and include only the relevant sections that apply to your project.
+
+Client
+Server
+Database
+Key Features
+Describe between 1-3 key features of the application.
+
+[key_feature_1]
+[key_feature_2]
+[key_feature_3]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -35,6 +47,29 @@ HTML,CSS,js
 - [Live Demo Link](https://ashnaali3255.github.io/Portfolio-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+💻 Getting Started
+Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+Prerequisites
+In order to run this project you need:
+
+Setup
+Clone this repository to your desired folder:
+
+Install
+Install this project with:
+
+Usage
+To run the project, execute the following command:
+
+Run tests
+To run tests, run the following command:
+
+Deployment
+You can deploy this project using:
 
 <!-- AUTHORS -->
 
@@ -47,6 +82,7 @@ HTML,CSS,js
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
