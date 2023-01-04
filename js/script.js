@@ -12,8 +12,8 @@ const array = [
     printer took a galley of type and scrambled it 1960s with the relea`,
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['CANOPY', 'Back End Dev', 2015],
-    image: 'First image.jpg',
-    imageDesktop: './images/desktop/projectone.svg',
+    image: './First-image.jpg',
+    // imageDesktop: './First-image.jpg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
@@ -32,8 +32,8 @@ const array = [
     printer took a galley of type and scrambled it 1960s with the relea`,
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['FACEBOOK', 'Full Stack Dev', 2015],
-    image: 'Second image.jpg',
-    imageDesktop: './images/desktop/projecttwo.svg',
+    image: './Second-image.jpg',
+    // imageDesktop: './Second-image.jpg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
@@ -52,8 +52,8 @@ const array = [
     printer took a galley of type and scrambled it 1960s with the relea`,
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['FACEBOOK', 'Full Stack Dev', 2015],
-    image: 'Third image.jpg',
-    imageDesktop: './images/desktop/projectthree.svg',
+    image: 'Third-image.jpg',
+    // imageDesktop: './Third-image.jpg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
@@ -72,8 +72,8 @@ const array = [
     printer took a galley of type and scrambled it 1960s with the relea`,
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['UBER', 'Lead Developer', 2018],
-    image: 'Fourth image.jpg',
-    imageDesktop: './images/desktop/projectfour.svg',
+    image: './Fourth-image.jpg',
+    // imageDesktop: './Fourth-image.jpg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
@@ -108,19 +108,19 @@ function openModal(id) {
           <li class="item2"><span class="dot">&bull;</span><span>${array[i].featured[2]}</span></li>
       </ul>
       <img class="img_project" src=${array[i].image} alt="project">
-      <img class="img_desktop" src=${array[i].imageDesktop} alt="project desktop screenshot">
       <p class="project_description">${array[i].longDescription}</p>
-      <ul class="tech_list">
-          <li>${array[i].technologies[0]}</li>
-          <li class="margin_li">${array[i].technologies[1]}</li>
-          <li class="margin_li">${array[i].technologies[2]}</li>
+      <ul class="tech_list list-flex">
+          <li class="margin_li language">${array[i].technologies[0]}</li>
+          <li class="margin_li language">${array[i].technologies[1]}</li>
+          <li class="margin_li language">${array[i].technologies[2]}</li>
       </ul>
-      <img src="./underline.svg" alt="border line" class="footer-underline">
+      
       <div class="buttons">
-      <a class="model_btn live" href=${array[i].live_version}>See live<img class="_icon" src="./images/Icon.svg" alt="live icon"></a>
-      <a class="model_btn source" href=${array[i].source_link}>See Source<img class="_icon" src="./Github.jpg" alt="github icon"></a>
+      <button><a class="model_btn live" href=${array[i].live_version}>See live<img class="_icon" src="./Icon.jpg" alt="live icon"></a></button>
+      <button><a class="model_btn source" href=${array[i].source_link}>See Source<img class="_icon" src="./Github.jpg" alt="github icon"></a></button>
       </div>
-  </div>`;
+      <hr class = "under">
+      </div>`;
     }
   }
 }

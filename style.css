@@ -7,6 +7,14 @@
   margin: 0;
   padding: 0;
 }
+.tech_list{
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+}
+.buttons{
+  display: flex;
+}
 
 header {
   width: 75%;
@@ -477,7 +485,6 @@ textarea {
   body {
     background: #e5e5e5;
   }
-
   /* Desktop Nav Bar */
 
   .menu-icon {
@@ -626,7 +633,7 @@ textarea {
   /* Desktop Projects Area */
   .projects {
     display: none;
-  }
+  } 
 
   .desktop-projects {
     display: flex;
@@ -822,8 +829,12 @@ textarea {
     margin-left: 24px;
   }
 
-  .footer-underline {
-    display: none;
+ .under{
+    display: flex;
+    width :30%;
+    align-items: center;
+    color: black;
+    border: 5px solid black;
   }
 /* Pop-Up */
 .model_content {
