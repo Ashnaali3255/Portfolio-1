@@ -13,7 +13,7 @@ const array = [
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['CANOPY', 'Back End Dev', 2015],
     image: 'First image.jpg',
-    imageDesktop: 'img/nature.svg',
+    imageDesktop: './images/desktop/projectone.svg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
@@ -33,7 +33,7 @@ const array = [
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['FACEBOOK', 'Full Stack Dev', 2015],
     image: 'Second image.jpg',
-    imageDesktop: 'img/stories-desk.svg',
+    imageDesktop: './images/desktop/projecttwo.svg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
@@ -53,7 +53,7 @@ const array = [
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['FACEBOOK', 'Full Stack Dev', 2015],
     image: 'Third image.jpg',
-    imageDesktop: 'img/desk-one.svg',
+    imageDesktop: './images/desktop/projectthree.svg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
@@ -73,15 +73,15 @@ const array = [
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['UBER', 'Lead Developer', 2018],
     image: 'Fourth image.jpg',
-    imageDesktop: 'img/uber-desk.svg',
+    imageDesktop: './images/desktop/projectfour.svg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
     source_link: 'https://github.com/Ashnaali3255/Portfolio-1',
   },
 ];
-const main = document.querySelector('.my-menu');
-const dynamicWork = document.querySelector('.works');
+const main = document.querySelector('.menu-icon');
+const dynamicWork = document.querySelector('.projects');
 const modalView = document.querySelector('.bg-modal');
 function openMain() {
   main.style.visibility = 'visible';
@@ -100,7 +100,7 @@ function openModal(id) {
       <div class="model_content" id="modelcontent">
       <div class="model_header">
           <h2 class="project_title">${array[i].name}</h2>
-          <span onclick="closeModel()" class="crossBtn">&times;</span>
+          <span onclick="closeModal()" class="crossBtn">&times;</span>
       </div>
       <ul class="info_list">
           <li class="item1">${array[i].featured[0]}</li>
@@ -115,10 +115,10 @@ function openModal(id) {
           <li class="margin_li">${array[i].technologies[1]}</li>
           <li class="margin_li">${array[i].technologies[2]}</li>
       </ul>
-      <img src="./images/border_line.png" alt="border line" class="button_line">
+      <img src="./underline.svg" alt="border line" class="footer-underline">
       <div class="buttons">
-          <a class="model_btn live" href=${array[i].live_version}>See live<img class="_icon" src="./images/Icon.svg" alt="live icon"></a>
-          <a class="model_btn source" href=${array[i].source_link}>See project<img class="_icon" src="./images/Vector.svg" alt="github icon"></a>
+      <a class="model_btn live" href=${array[i].live_version}>See live<img class="_icon" src="./images/Icon.svg" alt="live icon"></a>
+      <a class="model_btn source" href=${array[i].source_link}>See Source<img class="_icon" src="./Github.jpg" alt="github icon"></a>
       </div>
   </div>`;
     }
@@ -143,7 +143,8 @@ for (let i = 0; i < array.length; i += 1) {
       <li class="language">${array[i].technologies[1]}</li>
       <li class="language">${array[i].technologies[2]}</li>
     </ul>
-    <button><strong>See Project</strong></button>
+    <div class="button">
+    <button id=${array[i].id} onclick="openModal(this.id)"><a  href="#modal">See Project</a></button>
   </div>
   </div>
 </div>

@@ -25,13 +25,13 @@
             <div class="desktop-link"><a href="#Contact">Contact</a></div>
           </div>
           <div class="menu-icon">
-            <div class="item-closed"><a href="#" class="closing"><i class="fa fa-times" aria-hidden="true"></i></a></div>
-            <div class="mobile-nav"><a href="#Portfolio" class="closing">Portfolio</a></div>
-            <div class="mobile-nav"><a href="#About" class="closing">About</a></div>
-            <div class="mobile-nav"><a href="#Contact" class="closing">Contact</a></div>
+            <div class="item-closed"><a onclick="closeMain()" href="#" class="closing"><i class="fa fa-times" aria-hidden="true"></i></a></div>
+            <div class="mobile-nav"><a onclick="closeMain()" href="#Portfolio" class="closing">Portfolio</a></div>
+            <div class="mobile-nav"><a onclick="closeMain()" href="#About" class="closing">About</a></div>
+            <div class="mobile-nav"><a onclick="closeMain()" href="#Contact" class="closing">Contact</a></div>
           </div>
           <!-- <img src="./Bar.jpg" alt="menu" class="menu-icon"> -->
-          <div class="item-menu"><a href="#" class="openMenu"><i class="fa fa-bars"></i></a></div>
+          <div class="item-menu"><a onclick="openMain()"href="#" class="openMenu"><i class="fa fa-bars"></i></a></div>
         </nav>
       </header>
       <h1 class="name">I'm Ashna Ali <br>
@@ -50,9 +50,11 @@
         <li><a title="Angelist" href="https://angelist.com/Ashna_Ali1"><img src="./Angel.jpg" alt="angelist"></a></li>
       </ul>
     </section>
-
+ <div class="bg-modal" id="#modal"></div>
     <section class="projects" id="Portfolio">
-      <div class="project">
+    </section> 
+ 
+    <!--<div class="project">
         <img class="picture" src="First image.jpg" alt="project1">
         <h2 class="post">Tonic</h2>
         <ul class="toni-flex">
@@ -212,8 +214,8 @@
           </ul>
           <button><strong>See Project</strong></button>
         </div>
-      </div>
-    </section>
+      </div> -->
+    
 
     <section class="about" id="About">
       <div class="content">
@@ -338,7 +340,7 @@
     </section>
   </main>
   <script src="js/main.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/script.js"></script> 
 
 </body>
 
