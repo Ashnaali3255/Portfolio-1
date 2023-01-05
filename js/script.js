@@ -13,7 +13,7 @@ const array = [
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['CANOPY', 'Back End Dev', 2015],
     image: './First-image.jpg',
-    // imageDesktop: './First-image.jpg',
+    imageDesktop: './images/desktop/projectone.svg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
@@ -33,7 +33,7 @@ const array = [
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['FACEBOOK', 'Full Stack Dev', 2015],
     image: './Second-image.jpg',
-    // imageDesktop: './Second-image.jpg',
+   imageDesktop: './images/desktop/projecttwo.svg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
@@ -53,7 +53,7 @@ const array = [
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['FACEBOOK', 'Full Stack Dev', 2015],
     image: 'Third-image.jpg',
-    // imageDesktop: './Third-image.jpg',
+   imageDesktop: './images/desktop/projectthree.svg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
@@ -73,7 +73,7 @@ const array = [
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['UBER', 'Lead Developer', 2018],
     image: './Fourth-image.jpg',
-    // imageDesktop: './Fourth-image.jpg',
+   imageDesktop: './images/desktop/projectfour.svg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
@@ -133,9 +133,9 @@ for (let i = 0; i < array.length; i += 1) {
     <img class="picture" src="${array[i].image}" alt="project1">
     <h2 class="post">${array[i].name}</h2>
     <ul class="toni-flex">
-      <li class="link">${array[i].featured[0]}</li>
-      <li><img src="./Counter.jpg" alt="counter">${array[i].featured[1]}</li>
-      <li><img src="./Counter.jpg" alt="counter">${array[i].featured[2]}</li>
+      <li class="link">${array[i].featureddesk[0]}</li>
+      <li><img src="./Counter.jpg" alt="counter">${array[i].featureddesk[1]}</li>
+      <li><img src="./Counter.jpg" alt="counter">${array[i].featureddesk[2]}</li>
     </ul>
     <p class="para">${array[i].shortDescription}</p>
     <ul class="list-flex">
@@ -147,6 +147,28 @@ for (let i = 0; i < array.length; i += 1) {
     <button id=${array[i].id} onclick="openModal(this.id)"><a  href="#modal">See Project</a></button>
   </div>
   </div>
+  <div class="desktop-projects">
+        <div class="proj-image">
+          <img class="proj-img" src="${array[i].imageDesktop}" alt="picture">
+        </div>
+        <div class="proj-desc">
+          <h2 class="proj-title">${array[i].namedesk}</h2>
+          <ul class="toni-flex">
+            <li class="link">${array[i].featured[0]}</li>
+            <li><img src="./Counter.jpg" alt="counter">${array[i].featured[1]}</li>
+            <li><img src="./Counter.jpg" alt="counter">${array[i].featured[2]}</li>
+          </ul>
+          <p class="para">${array[i].shortDescriptiondesk}</p>
+          <ul class="list-flex">
+            <li class="language">${array[i].technologies[0]}</li>
+            <li class="language">${array[i].technologies[1]}</li>
+            <li class="language">${array[i].technologies[2]}</li>
+          </ul>
+          <div class="button">
+    <button id=${array[i].id} onclick="openModal(this.id)"><a  href="#modal">See Project</a></button>
+  </div>
+        </div>
+      </div>
 </div>
 </div>
   `;
