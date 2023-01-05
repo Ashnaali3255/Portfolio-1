@@ -919,12 +919,6 @@ textarea {
   width: 311px;
   height: 220px;
 }
-
-.crossBtn {
-  color: #67798e;
-  font-size: 30px;
-  cursor: pointer;
-}
   .tech_list {
     width: 90%;
     display: flex;
@@ -933,8 +927,7 @@ textarea {
     margin-bottom: 30px;
     padding-left: 0;
     gap: 10px;
-  }
-  
+  } 
   .tech_list li {
     background-color: #ebebff;
     color: #6070ff;
@@ -943,11 +936,9 @@ textarea {
     padding: 4px 12px;
     font-weight: 500;
   }
-  
-  .margin_li {
+  /* .margin_li {
     margin-left: 10px;
-  }
-
+  } */
   .modal {
     position: absolute;
     z-index: 1;
@@ -968,11 +959,12 @@ textarea {
     border-radius: 10px;
   }
   
-  .closeBtn {
+  .crossBtn {
     float: right;
     padding: 20px;
-    font-size: 24px;
-    color: rgba(103, 121, 142, 1);
+    color: #67798e;
+  font-size: 24px;
+  cursor: pointer;
   }
   .canopy {
     font-family: 'Poppins', sans-serif;
