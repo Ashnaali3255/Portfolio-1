@@ -498,12 +498,11 @@ textarea {
 
 /* Pop-Up */
 .model_content {
-  width: 93%;
+  width: 100%;
   height: calc(100vh - 20px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
   background-color: #fff;
   border-radius: 8px;
   padding-bottom: 10px;
@@ -512,7 +511,7 @@ textarea {
 .model_header {
   display: flex;
   height: 20px;
-  width: 90%;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   margin: 12px 0;
@@ -538,7 +537,7 @@ textarea {
 
 .crossBtn {
   float: right;
-  padding: 20px;
+  padding: 40px;
   color: #67798e;
   font-size: 24px;
   cursor: pointer;
@@ -555,9 +554,10 @@ textarea {
   text-align: start;
   color: #344563;
   font-size: 15px;
-  width: 90%;
+  width: 86%;
   line-height: 24px;
   font-weight: 400;
+  margin: 16px;
 }
 
 .project_descriptiondesk {
@@ -574,13 +574,16 @@ textarea {
   align-self: flex-start;
   list-style: none;
   margin-bottom: 12px;
-  padding-left: 20px;
+  padding-left: 26px;
 }
 
 .img_project {
-  width: 311px;
+  width: 85%;
   height: 220px;
+  display: flex;
+  align-self: center;
 }
+
 
 .tech_list {
   width: 90%;
@@ -623,12 +626,14 @@ textarea {
 
 .closeBtn {
   float: right;
-  padding: 20px;
   color: #67798e;
   font-size: 24px;
-  cursor: pointer;
 }
-
+@media screen and (max-width: 768px) {
+  .proj-img{
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   body {
     background: #e5e5e5;
@@ -977,7 +982,7 @@ textarea {
 
   /* Pop-Up */
   .model_content {
-    width: 93%;
+    width: 100%;
     height: calc(100vh - 20px);
     display: flex;
     flex-direction: column;
@@ -991,7 +996,7 @@ textarea {
   .model_header {
     display: flex;
     height: 20px;
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     margin: 12px 0;
@@ -1055,10 +1060,13 @@ textarea {
     margin-bottom: 12px;
     padding-left: 20px;
   }
-
-  .img_project {
-    width: 311px;
-    height: 220px;
+  .img_project{
+    display: none;
+    
+  }
+  .proj-img{
+    width: 96%;
+    height: 40%;
   }
 
   .tech_list li {

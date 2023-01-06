@@ -13,7 +13,7 @@ const array = [
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['CANOPY', 'Back End Dev', 2015],
     image: './First-image.jpg',
-    imageDesktop: './images/desktop/projectone.svg',
+    imageDesktop:'./images/desktop/projectone.svg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
@@ -100,6 +100,7 @@ function openModal(id) {
       <div class="model_content" id="modelcontent">
       <div class="model_header">
           <h2 class="project_title">${array[i].name}</h2>
+
           <span onclick="closeModal()" class="crossBtn">&times;</span>
       </div>
       <ul class="info_list">
@@ -108,18 +109,19 @@ function openModal(id) {
           <li class="item2"><span class="dot">&bull;</span><span>${array[i].featured[2]}</span></li>
       </ul>
       <img class="img_project" src=${array[i].image} alt="project">
+      <img class="proj-img" src=${array[i].imageDesktop} alt="project">
       <p class="project_description">${array[i].longDescription}</p>
       <ul class="tech_list list-flex">
           <li class="margin_li language">${array[i].technologies[0]}</li>
           <li class="margin_li language">${array[i].technologies[1]}</li>
           <li class="margin_li language">${array[i].technologies[2]}</li>
+
       </ul>
       
       <div class="buttons">
       <button><a class="model_btn live" href=${array[i].live_version}>See live<img class="_icon" src="./Icon.jpg" alt="live icon"></a></button>
       <button><a class="model_btn source" href=${array[i].source_link}>See Source<img class="_icon" src="./Github.jpg" alt="github icon"></a></button>
       </div>
-      <hr class = "under">
       </div>`;
     }
   }
@@ -133,9 +135,9 @@ for (let i = 0; i < array.length; i += 1) {
     <img class="picture" src="${array[i].image}" alt="project1">
     <h2 class="post">${array[i].name}</h2>
     <ul class="toni-flex">
-      <li class="link">${array[i].featureddesk[0]}</li>
-      <li><img src="./Counter.jpg" alt="counter">${array[i].featureddesk[1]}</li>
-      <li><img src="./Counter.jpg" alt="counter">${array[i].featureddesk[2]}</li>
+      <li class="link">${array[i].featured[0]}</li>
+      <li><img src="./Counter.jpg" alt="counter">${array[i].featured[1]}</li>
+      <li><img src="./Counter.jpg" alt="counter">${array[i].featured[2]}</li>
     </ul>
     <p class="para">${array[i].shortDescription}</p>
     <ul class="list-flex">
@@ -154,15 +156,17 @@ for (let i = 0; i < array.length; i += 1) {
         <div class="proj-desc">
           <h2 class="proj-title">${array[i].namedesk}</h2>
           <ul class="toni-flex">
-            <li class="link">${array[i].featured[0]}</li>
-            <li><img src="./Counter.jpg" alt="counter">${array[i].featured[1]}</li>
-            <li><img src="./Counter.jpg" alt="counter">${array[i].featured[2]}</li>
+            <li class="link">${array[i].featureddesk[0]}</li>
+            <li><img src="./Counter.jpg" alt="counter">${array[i].featureddesk[1]}</li>
+            <li><img src="./Counter.jpg" alt="counter">${array[i].featureddesk[2]}</li>
           </ul>
           <p class="para">${array[i].shortDescriptiondesk}</p>
           <ul class="list-flex">
-            <li class="language">${array[i].technologies[0]}</li>
-            <li class="language">${array[i].technologies[1]}</li>
-            <li class="language">${array[i].technologies[2]}</li>
+            <li class="language">${array[i].technologiesdesk[0]}</li>
+            <li class="language">${array[i].technologiesdesk[1]}</li>
+            <li class="language">${array[i].technologiesdesk[2]}</li>
+            <li class="language">${array[i].technologiesdesk[3]}</li>
+
           </ul>
           <div class="button">
     <button id=${array[i].id} onclick="openModal(this.id)"><a  href="#modal">See Project</a></button>
