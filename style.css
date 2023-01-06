@@ -584,7 +584,6 @@ textarea {
   align-self: center;
 }
 
-
 .tech_list {
   width: 90%;
   display: flex;
@@ -629,11 +628,13 @@ textarea {
   color: #67798e;
   font-size: 24px;
 }
+
 @media screen and (max-width: 768px) {
-  .proj-img{
+  .proj-img {
     display: none;
   }
 }
+
 @media screen and (min-width: 768px) {
   body {
     background: #e5e5e5;
@@ -1060,11 +1061,12 @@ textarea {
     margin-bottom: 12px;
     padding-left: 20px;
   }
-  .img_project{
+
+  .img_project {
     display: none;
-    
   }
-  .proj-img{
+
+  .proj-img {
     width: 96%;
     height: 40%;
   }
