@@ -380,7 +380,7 @@ hr {
   display: none;
 }
 
-.text {
+.myform {
   width: 327px;
   height: 48px;
   border: 1px solid #cfd8dc;
@@ -388,7 +388,7 @@ hr {
   margin-left: 24px;
 }
 
-.text::placeholder {
+.myform::placeholder {
   padding-top: 15px;
   padding-left: 16px;
 }
@@ -492,9 +492,15 @@ textarea {
   background: #fff;
 }
 
+#error-message {
+  position: relative;
+  top: -115px;
+  border-radius: 8px;
+}
+
 /* Pop-Up */
 .model_content {
-  width: 100%;
+  width: 95%;
   height: calc(100vh - 20px);
   display: flex;
   flex-direction: column;
@@ -502,6 +508,8 @@ textarea {
   background-color: #fff;
   border-radius: 8px;
   padding-bottom: 10px;
+  padding-top: 25px;
+  margin: 12px auto;
 }
 
 .model_header {
@@ -952,7 +960,7 @@ textarea {
     line-height: 28px !important;
   }
 
-  .touch-desktop {
+  .touch {
     align-self: center;
     margin-top: 0;
   }
@@ -964,7 +972,7 @@ textarea {
     flex-direction: column;
   }
 
-  .contact-desktop .text-desktop {
+  .contact-desktop .myform {
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 2px;
@@ -981,9 +989,14 @@ textarea {
     margin-left: 24px;
   }
 
+  #error-message {
+    position: relative;
+    top: -119px;
+  }
+
   /* Pop-Up */
   .model_content {
-    width: 100%;
+    width: 80%;
     height: calc(100vh - 20px);
     display: flex;
     flex-direction: column;
@@ -992,6 +1005,7 @@ textarea {
     background-color: #fff;
     border-radius: 8px;
     padding-bottom: 10px;
+    margin: 15px auto;
   }
 
   .buttons {
