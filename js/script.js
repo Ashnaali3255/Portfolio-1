@@ -2,7 +2,7 @@ const array = [
   {
     id: '1',
     name: 'Tonic',
-    namedesk : 'Tonic',
+    namedesk: 'Tonic',
     shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     shortDescriptiondesk: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -13,7 +13,7 @@ const array = [
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['CANOPY', 'Back End Dev', 2015],
     image: './First-image.jpg',
-    imageDesktop : './images/desktop/projectone.svg',
+    imageDesktop: './images/desktop/projectone.svg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
@@ -22,7 +22,7 @@ const array = [
   {
     id: '2',
     name: 'Multi-Post Stories',
-    namedesk : 'Multi-Post Stories',
+    namedesk: 'Multi-Post Stories',
     shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     shortDescriptiondesk: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -33,7 +33,7 @@ const array = [
     featured: ['CANOPY', 'Back End Dev', 2015],
     featureddesk: ['FACEBOOK', 'Full Stack Dev', 2015],
     image: './Second-image.jpg',
-    imageDesktop : './images/desktop/projecttwo.svg',
+    imageDesktop: './images/desktop/projecttwo.svg',
     technologies: ['html', 'css', 'javaScript'],
     technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails;'],
     live_version: 'https://ashnaali3255.github.io/Portfolio-1/',
@@ -42,7 +42,7 @@ const array = [
   {
     id: '3',
     name: 'Tonic',
-    namedesk : 'Facebook 360',
+    namedesk: 'Facebook 360',
     shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     shortDescriptiondesk: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -62,7 +62,7 @@ const array = [
   {
     id: '4',
     name: 'Multi-Post Stories',
-    namedesk : 'Uber Navigation',
+    namedesk: 'Uber Navigation',
     shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     shortDescriptiondesk: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
