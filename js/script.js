@@ -83,13 +83,13 @@ const array = [
 const main = document.querySelector('.menu-icon');
 const dynamicWork = document.querySelector('.projects');
 const modalView = document.querySelector('.bg-modal');
-function openMain() {
+const openMain = () => {
   main.style.visibility = 'visible';
 }
-function closeMain() {
+const closeMain = () => {
   main.style.visibility = 'hidden';
 }
-function closeModal() {
+const closeModal = () => {
   modalView.style.visibility = 'hidden';
 }
 function openModal(id) {
@@ -110,17 +110,17 @@ function openModal(id) {
       </ul>
       <img class="img_project" src=${array[i].image} alt="project">
       <img class="proj-img" src=${array[i].imageDesktop} alt="project">
+      <div class="container">
       <p class="project_description">${array[i].longDescription}</p>
       <ul class="tech_list list-flex">
           <li class="margin_li language">${array[i].technologies[0]}</li>
           <li class="margin_li language">${array[i].technologies[1]}</li>
           <li class="margin_li language">${array[i].technologies[2]}</li>
-
       </ul>
-      
       <div class="buttons">
       <button><a class="model_btn live" href=${array[i].live_version}>See live<img class="_icon" src="./Icon.jpg" alt="live icon"></a></button>
       <button><a class="model_btn source" href=${array[i].source_link}>See Source<img class="_icon" src="./Github.jpg" alt="github icon"></a></button>
+      </div>
       </div>
       </div>`;
     }
