@@ -40,8 +40,9 @@ HTML,CSS,JS
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+- [Live Demo Link](https://ashnaali3255.github.io/Portfolio-1/)
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 💻 Getting Started
  
 Describe how a new developer could make use of your project.
@@ -51,8 +52,14 @@ To get a local copy up and running, follow these steps.
 1. Prerequisites
 In order to run this project you need:
 
+- Visual Studio
+- Github
+
 2. Setup
 Clone this repository to your desired folder:
+Example commands:
+
+git clone https://github.com/Ashnaali3255/Portfolio-1.git
 
 3. Install
 Install this project with:
