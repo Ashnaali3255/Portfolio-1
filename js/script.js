@@ -92,7 +92,7 @@ const closeMain = () => {
 const closeModal = () => {
   modalView.style.visibility = 'hidden';
 }
-function openModal(id) {
+const openModal = (id) => {
   modalView.style.visibility = 'visible';
   for (let i = 0; i < array.length; i += 1) {
     if (id === array[i].id) {
