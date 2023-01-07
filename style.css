@@ -927,73 +927,8 @@ textarea {
   .desktop-frameworks .seperator {
     margin-bottom: 24px;
   }
-
-  .contact {
-    display: none;
-  }
-
-  .contact-desktop {
-    background: #6070ff url('./images/desktop/contact.svg');
-    background-repeat: no-repeat;
-    background-position: 100% 3%;
-    width: 100%;
-    margin-top: 185px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top-left-radius: 150px;
-  }
-
-  .contact1-desktop {
-    width: 569px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .contact1-desktop .graph {
-    width: 569px !important;
-    height: 102px !important;
-    font-weight: 400 !important;
-    font-size: 20px !important;
-    line-height: 28px !important;
-  }
-
-  .touch {
-    align-self: center;
-    margin-top: 0;
-  }
-
-  .contact-desktop .form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .contact-desktop .myform {
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 2px;
-    width: 327px;
-    margin-left: 24px;
-  }
-
-  .contact-desktop .message-desktop {
-    width: 327px;
-    height: 170px;
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 2px;
-    margin-left: 24px;
-  }
-
-  #error-message {
-    position: relative;
-    top: -119px;
-  }
-
+/* Contact Form Desktop */
+  
   /* Pop-Up */
   .model_content {
     width: 80%;
