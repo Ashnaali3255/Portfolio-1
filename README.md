@@ -75,16 +75,20 @@ Example commands:
 git clone https://github.com/Ashnaali3255/Portfolio-1.git
 
 3. Install
+
 Install this project with:
 
 4. Usage
-To run the project, execute the following command:
+ 
+ To run the project, execute the following command:
 
 5. Run tests
-To run tests, run the following command:
+ 
+ To run tests, run the following command:
 
 6. Deployment
-You can deploy this project using:
+ 
+ You can deploy this project using:
 
 <!-- AUTHORS -->
 
