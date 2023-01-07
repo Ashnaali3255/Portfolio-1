@@ -619,6 +619,22 @@ textarea {
     padding-left: 0;
     gap: 10px;
   }
+  .contact1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("./contactbg.png");
+    margin-bottom: 44px;
+  }
+
+  .message {
+    width: 327px;
+    height: 170px;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    margin: 1%;
+  }
 }
 @media screen and (min-width: 768px) {
   body {
