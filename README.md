@@ -29,6 +29,18 @@ computer Getting Started Describe how a new developer could make use of your pro
 # 📖 Ashna's  Portfolio <a name="about-project"></a>
 I complete my Projects here.
 
+You need to implement a simple validation:
+
+-The content of the email field has to be in lower case.
+
+-You should implement the following interactions:
+
+-When the user submits the form, you check if the email is in lower case.
+
+-If the validation is OK, the form is sent.
+
+-If the validation is not OK, you show an error message to the user near the submit button informing them of the error and the form is not sent.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -63,16 +75,20 @@ Example commands:
 git clone https://github.com/Ashnaali3255/Portfolio-1.git
 
 3. Install
+
 Install this project with:
 
 4. Usage
-To run the project, execute the following command:
+ 
+ To run the project, execute the following command:
 
 5. Run tests
-To run tests, run the following command:
+ 
+ To run tests, run the following command:
 
 6. Deployment
-You can deploy this project using:
+ 
+ You can deploy this project using:
 
 <!-- AUTHORS -->
 
